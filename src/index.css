@@ -1,0 +1,79 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.my-top-pic {
+  border-radius: 50%;
+  height: 65px;
+  width: 65px;
+  border: 1px solid black;
+}
+
+.my-sidebar-logo {
+  border-radius: 50%;
+  height: 65px;
+  width: 65px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+.my-score-logo {
+  /* border-radius: 100%; */
+  width: 100%;
+  margin-top: 5px;
+}
+.my-score-logo-2 {
+  width: 50%;
+}
+.side-bar-container-one {
+  /* background-color: brown; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.second-botom-container {
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.user-guide{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+
+  height: 260px;
+  width: 18vw;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+
+  margin: 10px;
+  border-radius: 5px;
+  padding: 10px;
+}
+.image-story-set{
+  height: 50%;
+  width: 100%;
+}
+.story-head{
+  border-top: 1px solid black;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.anchor-container{
+  height: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+
+  width: 100%;
+}
+.footer-style{
+  background-color: #406882;
+  color: white;
+}

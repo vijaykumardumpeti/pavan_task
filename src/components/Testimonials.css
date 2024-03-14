@@ -1,0 +1,67 @@
+.image-container {
+    position: relative;
+    width: 150%; /* Set the width of the container */
+    padding-bottom: 250%;/* Aspect ratio: 2:3 (height is 1.5 times width) */
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+
+    margin-bottom: 20px;
+  }
+  
+  .image-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Ensure the image fills the container */
+    height: 100%; /* Ensure the image fills the container */
+    object-fit: cover; /* Maintain aspect ratio and cover container */
+  }
+  .card-content{
+    position: relative;
+    width: 100%; /* Set the width of the container */
+    padding-bottom: 150%; 
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+
+  .apply-btn{
+    background-color: forestgreen; /* Set the background color to green */
+    color: white; /* Set the text color to white */
+    padding: 10px 20px; /* Add padding to make the button look better */
+    border: none; /* Remove default button border */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    cursor: pointer;
+  }
+  .elevate-heading{
+    background-color: navy; /* Set the background color to thick blue */
+    color: white; /* Set the text color to white */
+    padding: 10px; /* Add padding to create some space around the text */
+    font-family: "Arial", sans-serif;
+  }
+  /* .pic-with-data-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    
+    height: 100%;
+  } */
+
+  .learn-grow{
+    color: blue;
+  }
+  span{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+  }
+  .cognizent-container{
+    margin-bottom: 10px;
+  }
